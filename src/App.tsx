@@ -4,17 +4,17 @@ import Home from "./pages/Home.tsx";
 import Result from "./pages/Result.tsx";
 
 function App() {
-  return (
-      <>
-        <GlobalStyle />
-        <BrowserRouter>
-          <Routes>
-            <Route path={"/"} element={<Home />} />
-            <Route path={"/result"} element={<Result />} />
-          </Routes>
-        </BrowserRouter>
-      </>
-  );
+    return (
+        <>
+            <GlobalStyle />
+            <BrowserRouter>
+                <Routes>
+                    <Route path={"/"} element={<Home />} />
+                    <Route path={"/result"} element={<Result />} />
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;
